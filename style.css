@@ -46,12 +46,14 @@ body {
   padding-right: 64px;
 }
 
-.fas:hover {
+@media only screen and (min-width: 768px) {
+  .fas:hover {
     color: whitesmoke;
     font-size: 48px;
     text-decoration: none;
     padding-left: 64px;
     padding-right: 64px;
+  }
 }
 
 .row { 
