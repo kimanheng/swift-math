@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.svg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.svg" />
 
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.css" />
     <title>swift math</title>
-    <meta name="description" content="Are you quick with math? You only have ten seconds. Is this true or false? Race the clock, and get the highest score! ">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Are you quick with math? You only have ten seconds. Is this true or false? Race the clock, and get the highest score! "
+    />
+  </head>
+  <body>
+    <div id="true" class="overlay-left"></div>
+    <div id="false" class="overlay-right"></div>
+
     <progress id="timer" value="100" max="100"></progress>
     <p id="score">0</p>
 
     <div class="container">
-        <h1 id="prompt"></h1>
-        <em><p>the game will end when you choose the wrong answer or timer run out</p></em>
-        <div class="row">
-            <i id="true" class="fas fa-check"></i>
-            <i id="false" class="fas fa-xmark"></i></div>
+      <h1 id="prompt"></h1>
+
+      <div class="row">
+        <i class="fas fa-check"></i>
+        <i class="fas fa-xmark"></i>
+      </div>
     </div>
     <div class="footer">
-        <div class="social-links">
-            <a href="https://github.com/kimanheng/swift-math" class="fab fa-github" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://mathstodon.xyz/@kiman" class="fab fa-mastodon" target="_blank" rel="noopener noreferrer"></a>
-        </div>
+      <div class="social-links">
+        <a
+          href="https://github.com/kimanheng/swift-math"
+          class="fab fa-github"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+        <a
+          href="https://mathstodon.xyz/@kiman"
+          class="fab fa-mastodon"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+      </div>
     </div>
-</body>
-<script src="script.js"></script>
-<script src="https://kit.fontawesome.com/775a3f8c52.js" crossorigin="anonymous"></script>
+  </body>
+  <script src="script.js"></script>
 </html>

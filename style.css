@@ -46,16 +46,6 @@ body {
   padding-right: 64px;
 }
 
-@media only screen and (min-width: 768px) {
-  .fas:hover {
-    color: whitesmoke;
-    font-size: 48px;
-    text-decoration: none;
-    padding-left: 64px;
-    padding-right: 64px;
-  }
-}
-
 .row { 
   display: flex;
   align-items: center;
@@ -102,4 +92,23 @@ body {
     right: 0px;
     margin-bottom: 0px;
   }
+}
+
+.overlay-left {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+
+.overlay-right {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  z-index: 2;
 }
