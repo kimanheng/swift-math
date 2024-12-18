@@ -1,6 +1,6 @@
 <h1>Swift Math</h1>
-<p>made by kiman heng</p>
-<p>july 2024</p>
+<p>Made by Kiman Heng</p>
+<p>July 2024</p>
 <h3>Description</h3>
 <p>Are you quick with math? You only have ten seconds. Is this true or false? Race the clock, and get the highest score!</p>
 <h3>Screenshots</h3>
